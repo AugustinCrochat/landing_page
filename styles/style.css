@@ -1,0 +1,42 @@
+@import url('banner.css');
+@import url('buttons.css');
+@import url('cards.css');
+@import url('footer.css');
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.icons {
+  font-size: 64px;
+  color: aquamarine;
+  justify-self: center;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 567px) {
+  .icons {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .icons {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
